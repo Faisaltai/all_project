@@ -45,7 +45,7 @@
 .nav-list li a:hover{
     color: gray ;
 }
-.{
+.s{
     /* background-color: black; */
     width: 30%;
     text-align: right;
@@ -224,7 +224,7 @@
         transition: all 0.7s ease-out;
         height: 447px;
     }
-   {
+  .text {
         text-align: center;
     }
     .box-main{
