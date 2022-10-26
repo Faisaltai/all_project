@@ -1,0 +1,88 @@
+/* .title{
+    counter-increment: h5;
+}
+.title::before{
+    content: "chapter " counter(h5)  ": ";
+    color: #ffa07a;
+} */
+
+
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body
+{   background-color: black;
+    color: antiquewhite;
+
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: #333; */
+}
+header
+{
+    height: 80px;
+}
+img
+{
+    width: 5%;
+    float: left;
+}
+nav
+{
+    text-align: right;
+    font-size: larger;
+    float: right;
+    padding: 25px;
+}
+nav a
+{
+    color: rgb(202, 82, 82);
+}
+section
+{
+    text-align: center;
+    padding-top: 10%;
+}
+footer
+{
+   position: relative;
+   width: 100%;
+   background-color: black;
+   min-height: 100px;
+   padding: 20px 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer .social_icon
+{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+footer .social_icon li
+{
+   list-style: none;
+}
+footer .social_icon li a
+{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover
+{
+    transform: translateY(-10px);
+}
